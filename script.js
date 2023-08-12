@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Forest Lullaby", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "The Cradle of Your Soul", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "The Beat of Nature", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Cinematic Documentary", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "The Introvert - Michael Kobrin", filePath: "songs/.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Mountain Path", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Leonell Cassio - The Sapphire City", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Melody of Nature (Main)", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "A call to the soul", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Relaxing", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Forest Lullaby", filePath: "1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "The Cradle of Your Soul", filePath: "2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "The Beat of Nature", filePath: "3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Cinematic Documentary", filePath: "4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "The Introvert - Michael Kobrin", filePath: "5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Mountain Path", filePath: "6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Leonell Cassio - The Sapphire City", filePath: "7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Melody of Nature (Main)", filePath: "8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "A call to the soul", filePath: "9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Relaxing", filePath: "10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
